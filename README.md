@@ -1,10 +1,10 @@
-# 📊 LeadFlow CRM — Lead Management System
+#  LeadFlow CRM — Lead Management System
 
 A full-stack Lead Management CRM built with **React.js**, **Node.js + Express**, and **MongoDB**.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Dashboard** with real-time lead statistics (Total, New, Contacted, Qualified, Converted, Lost)
 - **Add / Edit / Delete** leads with full form validation
@@ -52,16 +52,7 @@ crm/
     └── package.json
 ```
 
----
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** v18+ and **npm**
-- **MongoDB** (local or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) — free tier)
-
----
 
 ### 1. Clone the Repository
 
@@ -93,7 +84,7 @@ PORT=5000
 FRONTEND_URL=http://localhost:3000
 ```
 
-> 💡 **Using MongoDB Atlas?** Replace `MONGODB_URI` with your Atlas connection string:
+> 💡 **Using MongoDB Atlas?* Replace `MONGODB_URI` with your Atlas connection string:
 > `mongodb+srv://<user>:<password>@cluster.mongodb.net/crm_leads?retryWrites=true&w=majority`
 
 Start the backend server:
